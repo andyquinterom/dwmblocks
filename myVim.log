@@ -1,0 +1,105 @@
+
+chdir(/etc)
+fchdir() to previous dir
+sourcing "/etc/vimrc"
+chdir(/usr/share/vim/vimfiles)
+fchdir() to previous dir
+line 11: sourcing "/usr/share/vim/vimfiles/archlinux.vim"
+finished sourcing /usr/share/vim/vimfiles/archlinux.vim
+continuing in /etc/vimrc
+finished sourcing /etc/vimrc
+chdir(/home/andres)
+fchdir() to previous dir
+could not source "$HOME/.vimrc"
+chdir(/home/andres/.vim)
+fchdir() to previous dir
+could not source "~/.vim/vimrc"
+chdir(/home/andres)
+fchdir() to previous dir
+could not source "$HOME/.exrc"
+chdir(/usr/share/vim/vim82)
+fchdir() to previous dir
+sourcing "$VIMRUNTIME/defaults.vim"
+chdir(/usr/share/vim/vim82)
+fchdir() to previous dir
+line 96: sourcing "/usr/share/vim/vim82/filetype.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim82/filetype.vim
+continuing in /usr/share/vim/vim82/defaults.vim
+chdir(/usr/share/vim/vim82)
+fchdir() to previous dir
+line 96: sourcing "/usr/share/vim/vim82/ftplugin.vim"
+finished sourcing /usr/share/vim/vim82/ftplugin.vim
+continuing in /usr/share/vim/vim82/defaults.vim
+chdir(/usr/share/vim/vim82)
+fchdir() to previous dir
+line 96: sourcing "/usr/share/vim/vim82/indent.vim"
+finished sourcing /usr/share/vim/vim82/indent.vim
+continuing in /usr/share/vim/vim82/defaults.vim
+chdir(/usr/share/vim/vim82/syntax)
+fchdir() to previous dir
+line 120: sourcing "/usr/share/vim/vim82/syntax/syntax.vim"
+chdir(/usr/share/vim/vim82/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim82/syntax/synload.vim"
+chdir(/usr/share/vim/vim82/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim82/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim82/syntax/syncolor.vim
+continuing in /usr/share/vim/vim82/syntax/synload.vim
+finished sourcing /usr/share/vim/vim82/syntax/synload.vim
+continuing in /usr/share/vim/vim82/syntax/syntax.vim
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+finished sourcing /usr/share/vim/vim82/syntax/syntax.vim
+continuing in /usr/share/vim/vim82/defaults.vim
+finished sourcing $VIMRUNTIME/defaults.vim
+not found in 'packpath': "pack/*/start/*"
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/getscriptPlugin.vim"
+finished sourcing /usr/share/vim/vim82/plugin/getscriptPlugin.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/gzip.vim"
+finished sourcing /usr/share/vim/vim82/plugin/gzip.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/logiPat.vim"
+finished sourcing /usr/share/vim/vim82/plugin/logiPat.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/manpager.vim"
+finished sourcing /usr/share/vim/vim82/plugin/manpager.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/matchparen.vim"
+finished sourcing /usr/share/vim/vim82/plugin/matchparen.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/vim/vim82/plugin/netrwPlugin.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/rrhelper.vim"
+finished sourcing /usr/share/vim/vim82/plugin/rrhelper.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/spellfile.vim"
+finished sourcing /usr/share/vim/vim82/plugin/spellfile.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/tarPlugin.vim"
+finished sourcing /usr/share/vim/vim82/plugin/tarPlugin.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/tohtml.vim"
+finished sourcing /usr/share/vim/vim82/plugin/tohtml.vim
+chdir(/usr/share/vim/vim82/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim82/plugin/vimballPlugin.vim"
+finished sourcing /usr/share/vim/vim82/plugin/vimba

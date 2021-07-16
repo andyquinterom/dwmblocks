@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cpu_temp=$(sensors | awk '/Tdie/ {print "🌡" $2}')
+cpu_avg=$(top -b | head -n 3 | grep -o "Cpu.*us" | grep -o "[0-9]\+\.[0-9]\+" | awk '{print "🔴" $1 "%"}')
+cpu_mhz=$(cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq | sort -nr | head -n 1 -c 4 | awk '{print "⚡" $1}')
+
+echo $cpu_avg $cpu_mhz $cpu_temp
